@@ -65,10 +65,10 @@ GITHUB               ?= git://$(GIT_ACCESS)github.com
 else
 GITHUB               ?= https://$(GIT_ACCESS)github.com
 endif
-GIT_NAME             ?= Audioniek
-GIT_NAME_DRIVER      ?= Audioniek
-GIT_NAME_TOOLS       ?= Audioniek
-GIT_NAME_FLASH       ?= Audioniek
+GIT_NAME             ?= bakara2025
+GIT_NAME_DRIVER      ?= bakara2025
+GIT_NAME_TOOLS       ?= bakara2025
+GIT_NAME_FLASH       ?= bakara2025
 
 TUFSBOX_DIR           = $(BASE_DIR)/tufsbox
 CROSS_BASE            = $(TUFSBOX_DIR)/cross
