@@ -1227,7 +1227,7 @@ $(D)/coreutils: $(D)/bootstrap $(D)/openssl $(ARCHIVE)/$(COREUTILS_SOURCE)
 #
 # smartmontools
 #
-SMARTMONTOOLS_VER = 7.4
+SMARTMONTOOLS_VER = 7.5
 SMARTMONTOOLS_SOURCE = smartmontools-$(SMARTMONTOOLS_VER).tar.gz
 
 $(ARCHIVE)/$(SMARTMONTOOLS_SOURCE):
