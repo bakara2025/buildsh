@@ -1720,8 +1720,8 @@ $(D)/flac: $(D)/bootstrap $(ARCHIVE)/$(FLAC_SOURCE)
 #
 # libxml2
 #
-LIBXML2_MAJOR = 2.12
-LIBXML2_MINOR = 10
+LIBXML2_MAJOR = 2.14
+LIBXML2_MINOR = 3
 LIBXML2_VER = $(LIBXML2_MAJOR).$(LIBXML2_MINOR)
 LIBXML2_SOURCE = libxml2-$(LIBXML2_VER).tar.xz
 LIBXML2_PATCH = libxml2-$(LIBXML2_VER).patch
@@ -1761,9 +1761,11 @@ $(D)/libxml2: $(D)/bootstrap $(D)/zlib $(LIBXML2_DEPS) $(ARCHIVE)/$(LIBXML2_SOUR
 			--datarootdir=/.remove \
 			--enable-shared \
 			--disable-static \
+			--without-python \
 			--without-catalog \
 			--without-debug \
 			--without-legacy \
+			--without-docbook \
 			--without-mem-debug \
 			--without-lzma \
 			--with-zlib \
