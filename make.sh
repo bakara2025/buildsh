@@ -487,7 +487,7 @@ case "$IMAGE" in
 				echo "=================================================================================================="
 				echo " 1)  Use your own Enigma2 git dir without patchfile"
 				echo "=================================================================================================="
-				echo " 2*) Fri, 27 Jun 2025 10:53 - E2 OpenPLi  any framework  37427c7c563c47ab0a964da872f817a6f8900186"
+				echo " 2*) Fri, 27 Jun 2025 10:53 - E2 OpenPLi  any framework  37427c7c563c47ab0a964da872f817a6f8900173"
 				echo " 3)  Sat, 28 May 2022 21:13 - E2 OpenPLi  any framework  ab1618f3bfbb392bcbe2adc456966a45dd399796"
 				echo " 4)  Thu, 06 Apr 2022 22:14 - E2 OpenPLi  any framework  0dc1cdc75c815876ae5b0b28e598f52c0003b0b1"
 				echo " 5)  Sun, 30 Jan 2022 17:13 - E2 OpenPLi  any framework  20602dbaad4e08cd4377310edab245e3fcbadbe6"
@@ -509,7 +509,7 @@ case "$IMAGE" in
 			0)	DIFF="0"
 				REVISION="newest";;
 			*)	DIFF="2"
-				REVISION="37427c7c563c47ab0a964da872f817a6f8900186";;
+				REVISION="37427c7c563c47ab0a964da872f817a6f8900173";;
 		esac
 
 		echo "E2_DIFF=$DIFF" >> config
