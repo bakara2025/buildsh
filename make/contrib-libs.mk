@@ -1034,7 +1034,7 @@ $(D)/ca-bundle: $(ARCHIVE)/cacert.pem
 #
 # libcurl
 #
-LIBCURL_VER = 8.14.1
+LIBCURL_VER = 8.15.0
 LIBCURL_SOURCE = curl-$(LIBCURL_VER).tar.bz2
 LIBCURL_PATCH = libcurl-$(LIBCURL_VER).patch
 
